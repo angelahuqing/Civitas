@@ -10,47 +10,55 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <style>
-      body {
-            background-image: url("USmap.png");
-            background-repeat: no-repeat;
-               background-size: 800px 500px;
-               background-position: center;
-          }
-      </style>
-      <nav class="navbar navbar-default" style="background-color:  #9D8FE3;">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-left" href="index.html" style="margin-top: 2px;">
-              <img src="logo.png" width="45" height="45" class="d-inline align-center" alt="Civitas logo">
-            </a>
-            <a class="navbar-brand" href="index.html" style="font-family: 'Bellefair', serif; font-size: 300%;"> Civitas</a>
-          </div>
-          <ul class="nav navbar-nav" style="font-family: 'Raleway', sans-serif; font-size:100%;">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="map.html">Map of Representatives</a></li>
-            <li><a href="vote.html">Register to Vote</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </div>
-      </nav>
-
   </head>
   <body>
-        <a href = "Dianne_Feinstein.html">
-        <img src="pin.png" alt="pin california" style= "width:75px;height:50px;   position: fixed; bottom: 300; right: 975; " >
-        </a>
-        <a href = "Chuck_Schumer.html">
-        <img src="pin.png" alt="pin New York" style= "width:75px;height:50px;  position: fixed; bottom: 400; right: 375;  " >
-        </a>
-        <a href = "Marco_Rubio.html">
-        <img src="pin.png" alt="pin Florida" style= "width:75px;height:50px;  position: fixed; bottom: 150; right: 420;  " >
-        </a>
-        <a href = "Cory_Booker.html">
-        <img src="pin.png" alt="pin New Jersey" style= "width:75px;height:50px;  position: fixed; bottom: 370; right: 335;  " >
-        </a>
-        <a href = "SherrodBrown.html">
-        <img src="pin.png" alt="pin Ohio" style= "width:75px;height:50px;  position: fixed; bottom: 350; right: 450;  " >
-        </a>
-    </body>
+
+    <nav class="navbar navbar-default" style="background-color:  #9D8FE3;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-left" href="index.html" style="margin-top: 2px;">
+            <img src="logo.png" width="45" height="45" class="d-inline align-center" alt="Civitas logo">
+          </a>
+          <a class="navbar-brand" href="index.html" style="font-family: 'Bellefair', serif; font-size: 300%;"> Civitas</a>
+        </div>
+        <ul class="nav navbar-nav" style="font-family: 'Raleway', sans-serif; font-size:100%;">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="map.html">Map of Representatives</a></li>
+          <li><a href="vote.html">Register to Vote</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+      <div>
+        <div class="content container-fluid  form-inline" style="margin-left: 975px;">
+          <input id="state"  class="form-control" type="text" placeholder="Search your state"/>
+          <button id="btnSubmit" onclick="checkState()"  class="btn btn-outline-success my-2 my-sm-0">Search</button>
+          <p id="results"></p>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <h style= "font-family: 'Bellefair', serif; font-size: 500%; text-align: center;">Illinios</h>
+      </div>
+
+
+
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-2" style="margin-right:200px;">  <img src=" Illinois.png" alt="Illinios" style="width:550px; height:450px; align: middle;"></div>
+          <div class="col-sm-6" style="font-family: 'Raleway', sans-serif;   font-size: 150%; margin-top: 15px;">  In Illinois a person must be registered to vote at least 27 days before the actual election date. A person can either vote online using the state online voter registration application, through mail by completing an Illinois voter registration application, or in person by visiting many the Board of election commissioners office. To vote in the primary election which determines the candidate that will represent each party, a person will declare their party affiliation to a judge at the polling place. The next general election is November 3, 2020; it will fill the Senate seat currently held by Dick Durbin Go to <a href = "https://ova.elections.il.gov/">this page</a> to register to vote online. A person only needs to register once unless they change their name or change addresses.</div>
+      </div>
+
+
+
+  </body>
+
+
+
+
+
+
 <html>
