@@ -3,7 +3,7 @@
 
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-     <link href="https://fonts.googleapis.com/css?family=Bellefair|Playfair+Display|Raleway:400" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Bellefair|Playfair+Display|Raleway:400|Open+Sans:400" rel="stylesheet">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <title>Civitas</title>
      <link rel="icon" href="logo.png">
@@ -46,6 +46,9 @@
          font-family: 'Raleway', sans-serif;
          font-size: 240%
        }
+       a{
+         color: black;
+       }
 
     </style>
 </head>
@@ -53,19 +56,20 @@
   <nav class="navbar navbar-default" style="background-color:  #9D8FE3;">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-left" href="#" style="margin-top: 2px;">
+        <a class="navbar-left" href="index.html" style="margin-top: 2px;">
           <img src="logo.png" width="45" height="45" class="d-inline align-center" alt="Civitas logo">
         </a>
-        <a class="navbar-brand" href="#" style="font-family: 'Bellefair', serif; font-size: 300%;">Civitas</a>
+        <a class="navbar-brand" href="index.html" style="font-family: 'Bellefair', serif; font-size: 300%;"> Civitas</a>
       </div>
       <ul class="nav navbar-nav" style="font-family: 'Raleway', sans-serif; font-size:100%;">
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#">Map of Representatives</a></li>
-        <li><a href="Vote.html">Register to Vote</a></li>
+        <li><a href="map.html">Map of Representatives</a></li>
+        <li><a href="vote.html">Register to Vote</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </div>
   </nav>
+  
     <div class="container-fluid" style="padding: 0px;">
       <div class="row" align="center">
         <img src="hope.jpg">
@@ -76,39 +80,40 @@
       <div class="row">
         <div class="col-md-4">
           <h1>About Us <span class="glyphicon glyphicon-flag"></span></h1>
-          <p style="font-family:'Raleway', sans-serif; font-size:100%">Meet the team that created Civitas</br> and learn about the Senate!</p>
-          <button type="button" class="btn btn-default">About</button>
+          <p style="font-family:'Open Sans', sans-serif; font-size:14px;">Meet the team that created Civitas</br> and learn about the Senate!</p>
+          <button type="button" class="btn btn-default"><a href="about.html">About</a></button>
           <p>                      </p>
         </div>
         <div class="col-md-4">
           <h1>Find Your Senator <span class="glyphicon glyphicon-globe"></span></h1>
-          <p style="font-family:'raleway';">Find your state's senators and learn about </br>their positions on crucial topics.</p>
+          <p style="font-family:'Open Sans', sans-serif; font-size:14px;">Find your state's senators and learn about </br>their positions on crucial topics.</p>
             <div class="btn-group">
-              <button type="button" class="btn btn-default">Map</button>
-              <button type="button" class="btn btn-default">Directory</button>
+              <button type="button" class="btn btn-default"><a href="map.html">Map</a></button>
+              <button type="button" class="btn btn-default"><a href="directory.html">Directory</a></button>
             </div>
           <p>
         </div>
         <div class="col-md-4">
           <h1>Register To Vote <span class="glyphicon glyphicon-check"></span></h1>
-          <p style="font-family:'raleway';">Get out and vote! Learn about the specific </br>voting requirements in your state.</p>
-          <button type="button" class="btn btn-default">Registration</button>
+          <p style="font-family:'Open Sans', sans-serif; font-size:14px">Get out and vote! Learn about the specific </br>voting requirements in your state.</p>
+          <button type="button" class="btn btn-default"><a href="vote.html">Registration</a></button>
           <p>                          </p>
         </div>
       </div>
     </div>
 
-  <div class="container-fluid">
+  <!-- <div class="container-fluid">
     <div class="row" style="background:#FFFF67;color:#3D3A3E;font-family:'Raleway', sans-serif; font-size: 100%;">
       <h2 align="center"><span class="glyphicon glyphicon-envelope"></h2>
-      <h4 align="center"><strong>Contact Us</strong></h4>
+      <a href="mailto:kellysfg2010@gmail.com?Subject=Civitas" target="_top" align="center">Contact Us</a>
     </div>
-  </div>
+  </div> -->
 
   <div class="container-fluid">
     <div class="row" style="background:#3D3A3E;color:white;">
-      <h1 align="center" style="font-family: 'Bellefair', serif;font-size:350%"><img src="logo.png" width="58" height="58" class="d-inline align-center" alt="Civitas logo"> Civitas</h1>
-      <p align="right">&copy;   2017 Civitas</p>
+      <p align="center" style="margin-top: 2px; font-family: 'Bellefair', serif; font-size:300%";"><img src="logo.png" width="55" height="55" class="d-block align-center"
+        alt="Civitas logo"> Civitas</p>
+      <font color=#9e9a98 align="left">&copy;   2017 Civitas</font>
     </div>
   </div>
 </body>
