@@ -22,5 +22,7 @@ function checkState() {
         document.getElementById("results").innerHTML = window.location.href = "pennVote.html";
       }else if (word == "massachusetts"){
         document.getElementById("results").innerHTML = window.location.href = "massVote.html";
+      }else{
+       document.getElementById("results").innerHTML = window.location.href = "error.html"; 
       }
 }
